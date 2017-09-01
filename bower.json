@@ -1,0 +1,10 @@
+{
+  "name": "polygon-geocoding-prototype",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "leaflet-draw": "~0.2.4",
+    "turf": "~2.0.2",
+    "esri-leaflet": "~1.0.0-rc.7"
+  }
+}

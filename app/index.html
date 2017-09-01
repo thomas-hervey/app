@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Polygon Geocoding Prototype</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="lib/styles/leaflet.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css" />
+    <link rel="stylesheet" href="bower_components/leaflet-draw/dist/leaflet.draw.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+   	<!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <link rel="shortcut icon" href="/favicon.ico">
+
+</head>
+<body>
+
+		<header class="group">
+		<div class="row" id="controls">
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <input type="text" class="form-control" id="searchBox" placeholder="Search for...">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" id="searchButton" type="button">Go!</button>
+		      </span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+		</header>
+
+	<div class="map-application">
+		<div id="map" class="map"></div>
+		<!-- <div id="control" class= "controls"></div> -->
+	</div>
+	<!-- build:js scripts/vendor.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/leaflet-dist/leaflet.js"></script>
+    <script src="bower_components/leaflet-draw/dist/leaflet.draw-src.js"></script>
+    <script src="bower_components/turf/turf.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbuild -->
+
+	<!-- build:js main.js -->
+	<script src="scripts/map.js"></script>
+  <script src="scripts/search.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
